@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.app {
+    background-color: #545F66;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: #829399;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.header {
+    color: #D0F4EA;
+    margin-bottom: 20px;
+    font-size: 40px;
+    user-select: none;
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+    font-size: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 8px;
+    outline: none;
+}
+
+.input:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.arrow {
+    font-size: 40px;
+    margin-bottom: 10px;
+    user-select: none;
+    color: #E8FCC2;
+}
+
+.select {
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #B1CC74;
+    cursor: pointer;
+    outline: none;
+}
+
+.select:hover {
+    background-color: #76874d;
+}
+
+.select:active {
+    background-color: #d4f48a;
+}
+
+.option {
+    background-color: #E8FCC2;
+}
+
+.moneyRow {
+    display: flex;
+    align-items: flex-start;
+}
